@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>HOME</title>
+  <!-- css -->
+  <link rel="stylesheet" href="css/home.css">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- icon of site -->
+  <link rel="shortcut icon" href="heading.ico">
+  <!-- google-font -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <!-- font awesome site -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</head>
+
+<body>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <section id="top-section">
+    <style media="screen">
+      #top-section {
+        background-image: url("images/background.jpeg");
+
+        width: 100%;
+        height: 960px;
+        background-repeat: no-repeat;
+      }
+    </style>
+    <div class="top-section">
+      <nav class="navbar navbar-expand-lg navbar-dark  navbar-dark show-lap">
+        <a class="navbar-brand">
+          <img class="heading-img" src="images/heading.png" width="343" height="136" alt="title-img">
+
+        </a>
+
+        <span class="kk" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <div id="mySidenav" class="sidenav kki">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="home.html">HOME</a>
+          <hr class="hr-style">
+          <a href="about-us.html">ABOUT US</a>
+          <hr class="hr-style">
+          <a href="services.html">SERVICES</a>
+          <hr class="hr-style">
+          <a href="contact.html">CONTACT</a>
+          <hr class="hr-style">
+        </div>
+
+        <div class="collapse navbar-collapse button-top" id="navbarSupportedContent">
+          <form class="form-inline">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="home.html" class="myButton">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a href="about-us.html" class="myButton">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a href="services.html" class="myButton">SERVICES</a>
+              </li>
+              <li>
+                <a href="contact.html" class="myButton">CONTACT</a>
+              </li>
+            </ul>
+          </form>
+        </div>
+      </nav>
+
+    </div>
+
+
+    <div class="middle-comtainer">
+
+      <a href="home.html" class="register">Quick Booking</a>
+
+
+
+      <form class="iput-tag" action="index.html" method="post">
+        <div class="row">
+          <div class="col-lg-6 text">
+            <label>Name</label><br>
+
+            <input class="input" type="text" name="Name" value="">
+          </div>
+          <div class="col-lg-6 padding text">
+            <label class="box">Pick up date</label><br>
+            <input class="input" type="date" name="Pick up date" value="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 text">
+            <label>Phone</label><br>
+            <input class="input" type="text" name="Phone" value="">
+          </div>
+          <div class="col-lg-6 padding text">
+            <label>Drop off loacation</label><br>
+            <input class="input" type="text" name="Drop off loacation" value=""><br>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col-lg-6 text">
+            <label>Pick up location</label><br>
+            <input class="input" type="text" name="Pick up location" value="">
+          </div>
+          <div class="col-lg-6 padding text">
+            <label>Hours</label><br>
+            <input class="input" type="text" name="Hours" value="">
+          </div>
+
+        </div>
+
+        <a href="tell:9746408068" class="submit-btn">Submit</a>
+      </form>
+      <div class="link">
+        <nav class="nav">
+          <a href="https://www.facebook.com/iPage/">
+            <i class="fab fa-facebook-f icon"></i>
+          </a>
+          <a href="https://www.instagram.com/aljazeera_limousine/"><i class="fab fa-instagram icon"></i>
+          </a>
+          <a href="https://www.tripadvisor.com/"> <i class="fab fa-tripadvisor icon"></i>
+          </a>
+        </nav>
+      </div>
+
+
+    </div>
+
+
+  </section>
+  <script src="javascript-file/home.js" charset="utf-8"></script>
+</body>
+
+</html>

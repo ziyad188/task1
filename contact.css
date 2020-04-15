@@ -1,0 +1,250 @@
+html,body{
+  width: 100%;
+   height: 100%;
+   margin: 0px;
+   padding: 0px;
+   overflow-x: hidden;
+   font-family: 'Roboto', sans-serif;
+
+}
+.myButton{
+background-color: Transparent;
+border-radius:15px;
+border:2px solid #8a0b6c;
+display:inline-block;
+cursor:pointer;
+color: #8a0b6c;
+font-family:Arial;
+font-size:15px;
+padding: 10px 20px;
+margin-left: 10px;
+margin-right: 15px;
+text-shadow:0px 1px 0px #2f6627;
+
+}
+.myButton:hover {
+background-color:#5c0e41;
+color: white;
+text-decoration: none;
+}
+.top-section{
+  padding-top: 30px;
+  padding-left: 250px;
+}
+.button-top{
+  padding-top: 100px;
+}
+.visit-us{
+  color: white;
+  text-align: center;
+  line-height: 2;
+  position: relative;
+  right: 300px;
+  top: 100px;
+}
+.contact{
+  padding-left: 700px;
+  padding-right: 200px;
+  position: relative;
+  bottom: 90px;
+}
+.heading-contact{
+  position: relative;
+  left: 700px;
+  color: white;
+  bottom: 100px;
+  font-size: 30px;
+}
+.visit{
+  font-size: 30px;
+}
+.form-contact{
+  border-radius: 10px;
+  padding-left: 0;
+outline: none;
+border: 2px solid white;
+width: 300px;
+height: 40px;
+}
+.form-contact:hover{
+  outline: none;
+  border: 2px solid grey;
+}
+.label-edit{
+  color: white;
+  line-height: 2;
+}
+.submit-btn{
+	background-color:#610945;
+	border-radius:28px;
+	display:inline-block;
+	cursor: pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:14px 36px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+   margin: 60px 220px 60px 220px;
+font-weight: normal;
+border: none;
+outline: none;
+
+
+}
+.submit-btn:hover{
+  color: white;
+  text-decoration: none;
+}
+.box{
+  margin-left: 30px;
+  width: 350px;
+  height: 250px;
+}
+.box-text{
+  margin-left: 30px;
+}
+.map-section{
+  position: relative;
+  bottom: 350px;
+  left: 250px;
+  height: 0;
+}
+.kk{
+  visibility: hidden;
+}
+.kki{
+visibility: hidden;
+}
+@media  (max-width: 992px) {
+  .sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #cf7500; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+
+  }
+  .icon{
+    margin-right: auto;
+  }
+
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+    text-decoration: none;
+  }
+
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  .hr-style{
+    background-color: white;
+  }
+  .heading-img{
+    padding-left: 50px;
+    width: 400px;
+  }
+  .kk{
+    visibility: visible;
+
+  }
+  .kki{
+    visibility: visible;
+  }
+
+.top-section{
+  padding-top: 15px;
+  padding-left: 0;
+
+}
+
+.visit-us{
+  margin: auto;
+  right: 0;
+  top: 30px;
+  margin-right: auto;
+  margin-bottom: 3%;
+}
+.heading-img{
+  height: 100px;
+  width: 300px;
+}
+.paragraph{
+  position: relative;
+  bottom: 20px;
+}
+.contact{
+  position: relative;
+  padding: 0;
+  bottom:  600px;
+  margin: auto;
+  height: 0;
+
+  margin: auto;
+  left: 30%;
+  top: 10px;
+
+}
+.heading-contact{
+  top: 0;
+  margin-left: 35%;
+}
+.map-section{
+  visibility: hidden;
+}
+.heading-contact{
+  left: 0;
+}
+.box{
+  margin-left: 0;
+  width: 300px;
+  height: 150px
+}
+.box-text{
+  margin: auto;
+
+}
+
+#top-section{
+  background-size: 100% 100%;
+}
+.submit-btn{
+  margin-left: 100px;
+  margin-top: 2%;
+
+
+}
+.contact-details{
+  position: relative;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+}

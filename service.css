@@ -1,0 +1,139 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.myButton{
+background-color: Transparent;
+border-radius:15px;
+border:2px solid #8a0b6c;
+display:inline-block;
+cursor:pointer;
+color: #8a0b6c;
+font-family:Arial;
+font-size:15px;
+padding: 10px 20px;
+margin-left: 10px;
+margin-right: 15px;
+text-shadow:0px 1px 0px #2f6627;
+
+}
+.myButton:hover {
+background-color:#5c0e41;
+color: white;
+text-decoration: none;
+}
+#top-section{
+  padding-top: 30px;
+  padding-left: 250px;
+}
+.button-top{
+  padding-top: 100px;
+}
+
+.list-style{
+  color: purple;
+text-shadow: 1px 1px 1px black;
+font-size: 20px;
+}
+.heading{
+  color: purple;
+  text-shadow: 1px 1px 1px black;
+  font-size: 30px;
+  margin-bottom: 20px;
+
+}
+.our-service{
+  position: relative;
+  left: 400px;
+  top: 50px;
+  padding-bottom: 100px;
+}
+.kk{
+  visibility: hidden;
+}
+.kki{
+visibility: hidden;
+}
+@media (max-width: 992px) {
+  #top-section{
+    padding: 0;
+  }
+  .kk{
+    visibility: visible;
+  }
+  .kki{
+    visibility: visible;
+  }
+  .sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #cf7500; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+
+  }
+  .icon{
+    margin-right: auto;
+  }
+
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+    text-decoration: none;
+  }
+
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  .hr-style{
+    background-color: white;
+  }
+  .heading-img{
+    padding-left: 50px;
+    width: 400px;
+  }
+  .our-service{
+    margin-left: 50px;
+    left: 0;
+
+
+}
+.list-style{
+  font-size: 25px;
+}
+.heading{
+  font-size: 40px;
+}
+.footer-img{
+  position: relative;
+  top: 100px;
+  width: 100%;
+  height: 100%;
+}
+}
